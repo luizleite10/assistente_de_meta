@@ -6,51 +6,63 @@ Este projeto é um **Assistente de Meta** focado em ajudar jogadores com estrat�
 
 ## 📝 Sobre o Projeto
 
-O assistente permite que o usuário informe sua API do Gemini, escolha um jogo e faça perguntas relacionadas a estratégias, builds e dicas específicas. O sistema responde com informações geradas pela IA.
+O assistente permite que o usuário informe sua **API Key do Gemini**, escolha um jogo e faça perguntas relacionadas a estratégias. O sistema responde com informações geradas pela IA do Gemini.
+
+---
+
+## 🧠 Como conseguir a chave de API do Gemini (Google AI)
+
+1. Acesse: [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
+2. Faça login com sua conta Google.
+3. Clique em **"Create API key"** (ou “Criar chave de API”).
+4. Copie a chave gerada.
+5. Cole essa chave no campo do assistente onde está escrito **"Informe a API do Gemini"**.
+
+🔒 **Importante:** Mantenha sua chave em segredo! Não compartilhe publicamente.
 
 ---
 
 ## 🖥️ Tecnologias
 
 - HTML5, CSS3 para estrutura e estilo
-- JavaScript para a lógica de interação
-- Integração com API do Gemini (via input de API key)
-- Fontes do Google Fonts (Caveat, Inter, Kaushan Script, Mulish, Passion One)
-- Biblioteca Showdown para conversão de Markdown (usada no `script.js`)
+- JavaScript para lógica do assistente
+- Integração com Gemini API (via chave pessoal)
+- Fonts do Google Fonts
+- Biblioteca **Showdown.js** para converter respostas em Markdown
 
 ---
 
 ## 🚀 Como usar
 
 1. Abra o arquivo `index.html` no navegador.
-2. Informe sua API key do Gemini no campo apropriado.
-3. Selecione o jogo desejado (Valorant, League of Legends ou CS:GO).
-4. Digite sua pergunta, por exemplo:  
-   `melhor build para Jett no Valorant`
-5. Clique em **perguntar** para receber a resposta gerada.
+2. Insira sua API Key do Gemini.
+3. Escolha o jogo desejado: Valorant, LoL ou CS:GO.
+4. Digite sua dúvida, por exemplo:  
+   `melhor build para Kay/O`
+5. Clique em **perguntar** e veja a resposta da IA!
 
 ---
 
 ## 📁 Estrutura do projeto
 
-- `index.html` — estrutura da página
+- `index.html` — estrutura principal
 - `style.css` — estilos visuais
-- `script.js` — lógica do assistente e integração com API
-- `assets/` — imagens e recursos estáticos (ex: logo)
+- `script.js` — lógica JS + requisição à API
+- `assets/` — logo e imagens
 
 ---
 
 ## ⚙️ Requisitos
 
-- Navegador moderno (Chrome, Firefox, Edge)
-- API Key válida do Gemini para acessar a inteligência artificial
+- Navegador moderno (Chrome, Firefox, Edge, etc)
+- API Key válida do Gemini
 
 ---
 
 ## 📄 Licença
 
-Projeto aberto sob a licença MIT. Veja o arquivo `LICENSE` para detalhes.
+Este projeto está licenciado sob a **MIT License**.
 
 ---
 
-Feito com 💜 para ajudar gamers a melhorarem seu desempenho!
+Feito com 💜 durante a jornada da **NLW 20** da Rocketseat.
